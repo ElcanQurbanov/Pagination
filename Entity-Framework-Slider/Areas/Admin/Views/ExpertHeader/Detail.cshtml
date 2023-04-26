@@ -1,0 +1,15 @@
+﻿@model ExpertHeader
+
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<div class="container my-5">
+    <h1>ExpertHeader Detail</h1>
+    <h4 class="mt-5">Title</h4>
+    <input type="text" class="form-control" id="customFile" asp-for="Title" disabled="disabled" />
+    <h4 class="my-3">Description</h4>
+    <input type="text" class="form-control" id="customFile" asp-for="Description" disabled="disabled" />
+    <a class="btn btn-light mt-3" asp-action="Index">Cancel</a>
+</div>
+
